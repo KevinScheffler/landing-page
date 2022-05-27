@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000000;
+}
+
+.container {
+  width: 75%;
+  height: 100%;
+  margin: auto;
+}
+
+.header {
+  background: #1f2937;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  justify-content: flex-start;
+}
+
+.nav-links a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.nav-links ul  {
+  padding-left: 10px;
+  list-style: none;
+  display: flex;
+}
+
+
+
+
